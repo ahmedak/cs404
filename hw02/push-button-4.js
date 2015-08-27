@@ -1,4 +1,7 @@
-nMode('P8_11', b.INPUT);
+var b = require('bonescript');
+
+//Input Pins
+b.pinMode('P8_11', b.INPUT);
 b.pinMode('P8_13', b.INPUT);
 b.pinMode('P8_15', b.INPUT);
 b.pinMode('P8_19', b.INPUT);
