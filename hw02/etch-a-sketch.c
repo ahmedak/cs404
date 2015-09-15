@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#define MAXX 50
-#define MAXY 50
+#define MAXX 8	
+#define MAXY 8	
 
 /* Function to print screen to terminal */
 void print_screen(char screen[MAXX][MAXY]){
