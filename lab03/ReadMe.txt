@@ -1,3 +1,9 @@
+Prof. Yoder comments
+Very nice memo. The code you present looks good.
+Did you do the jsfiddle part?  I don't see the code, but your partner reports it.
+
+==================================================
+
 To:   Mark A. Yoder
 
 From :    Ahmed Karanath
