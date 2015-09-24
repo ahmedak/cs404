@@ -1,3 +1,7 @@
+Prof. Yoder comments
+Good writeup.  Clear and to the point.
+
+==============================================
 To:   Mark A. Yoder
 
 From :    Ahmed Karanath
