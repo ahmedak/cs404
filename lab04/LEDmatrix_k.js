@@ -16,7 +16,7 @@ b.i2cWriteByte(port,  0x21); // Start oscillator (p10)
 b.i2cWriteByte(port,  0x81); // Disp on, blink off (p11)
 b.i2cWriteByte(port,  0xe7); // Full brightness (page 15)
 
-//doK();
+doK();
 function doK() {
 	b.i2cWriteBytes(port, 0x00, K);
 }
