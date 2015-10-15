@@ -1,0 +1,21 @@
+#IFNDEF _BBB_H_
+#DEFINE _BBB_H_
+
+#define GPIO0_START_ADDR 0x44E06000
+#define GPIO0_END_ADDR   0x44E07FFF
+#define GPIO0_SIZE (GPIO0_END_ADDR - GPIO0_START_ADDR)
+
+#define GPIO1_START_ADDR 0x4804C000
+#define GPIO1_END_ADDR   0x4804e000
+#define GPIO1_SIZE (GPIO1_END_ADDR - GPIO1_START_ADDR)
+
+#define GPIO_OE 0x134
+#define GPIO_DATAIN 0x138
+#define GPIO_SETDATAOUT 0x194
+#define GPIO_CLEARDATAOUT 0x190
+#define P8_17 (1<<27)	//GPIO_27 -> used as switch 0 (GPIO0)
+#define P9_12 (1<<28)	//GPIO_60 -> used as switch 1 (GPIO1)
+#define USR2 (1<<23)	//output LED0
+#define USR3 (1<<24)	//output LED1
+
+#ENDIF
