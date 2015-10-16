@@ -1,3 +1,5 @@
+# Edited to include LEDmatrix_Hi.js and the LEDbutton_smile.js
+
 Comments from Mark A. Yoder
 I see you have the LED matrix lighting up.  I was even able to get your "K" to appear
 after modifying your code.
@@ -22,6 +24,8 @@ Subject	: Report on lab04
 
   The first part of the lab involved setting up the LED matrix with the bone. Then we tested it with sample commands. We then drew varous faces on the LED matrix, whose codes are in 'LEDmatrix_faces.js'.
   
-  The second part saw us experimenting with the code to get various other things. We tried to make the letter K appear on the LED screen. This is contained in 'LEDmatrix_K.js'
+  The second part saw us experimenting with the code to get various other things. We tried to make the letter K and 'Hi' appear on the LED screen. This is contained in 'LEDmatrix_K.js' and 'LEDmatrix_hi.js' respectively. 
+ 
+  In the third part, we used a button to light up a happy face on the LED matrix, whenever it is pressed.
 
-We will try to hook up our etch-a-sketch program to the LED matrix after the next few la
+We will try to hook up our etch-a-sketch program to the LED matrix after the next few labs.

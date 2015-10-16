@@ -1,23 +1,33 @@
-To 	: Mr.Mark A Yoder
+# Comments from Mark A. Yoder
 
-From 	: Kansul Mahrifa(B13123)						
+5   hello2.c
+6   Makefile
+0   Text from /var/log/kern.log
+6   ReadMe.txt
+5   Not Late
 
-Lab partners : Ahmed Karanath(B13104), Kansul Mahrifa (B13123)
+Grade 22/25
 
-Date	: 08 October 2015
+------------------------------------------------
 
-Subject	: Project report on lab08
+To:   Mark A. Yoder
 
-  Lab08 was about using loadable kernel modules with the bone. We used instructions on Derek Molloy's website(http://derekmolloy.ie/writing-a-linux-kernel-module-part-1-introduction/) to write our first LKM and load it onto the BeagleBone.
-  
-  The sample program hello.c was run and the log files(/var/log/kern.log) showed the expected output.
-  
-  In the next part we added a few more lines to:
-     1) Add ourselves as authors
-     2) Add another paramter "addr" to show address. Its defualt value is "IIT".
-     3) Add line to print the address to kernel log file.
-  The new file is saved as "hello2.c"
+From :    Ahmed Karanath
 
-  We also changed the makefile to complie hello2.c.  
+Date:		08 October 2015
 
-  In this lab we learnt the basics of LKMs, and a few related concepts.
+Subject:    LAB 08 REPORT (CS404)
+
+Lab Members: Ahmed Karanath (B13104), Kansul Mahrifa (B13123)
+
+Lab 08 was about working with LKMs (Loadable Kernel Modules). Initial setup instructions were obtained from Derek Molloy's blog (http://derekmolloy.ie/writing-a-linux-kernel-module-part-1-introduction/)
+
+In the first part, the LKM from the above blog was loaded onto the BeagleBone. Output was tested and recorded in /var/ker.log.
+
+In the second part, some modifications were made to the original file to make a new one:
+1) Added the lab partners as authors.
+2) Added new parameter addr to show address, with default value as "IIT"
+3) Print address to ker.log file.
+4) Added hello2.o to the makefile to compile it alongwith the hello.c file
+
+Lab08 was kindof challenging, since we were completely new to messing aroungd with kernel files and modules. We learnt some of the 'deep and messy stuff' in Linux. We'll do the rest of the tutorial in the coming lab.

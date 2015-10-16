@@ -30,4 +30,6 @@ In the second part, some modifications were made to the original file to make a 
 3) Print address to ker.log file.
 4) Added hello2.o to the makefile to compile it alongwith the hello.c file
 
+"ker_log.txt" contains the last few lines of kern.log in /var/log in the beaglebone when the LKMs are installed and removed.
+
 Lab08 was kindof challenging, since we were completely new to messing aroungd with kernel files and modules. We learnt some of the 'deep and messy stuff' in Linux. We'll do the rest of the tutorial in the coming lab.
