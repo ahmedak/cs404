@@ -31,4 +31,7 @@ Variations in experiment:
 1. Used a proximity sensor instead of an ultrasonic one to measure range. The range of measurable distance was much smaller. But again, this is what the proximity sensor is commonly used for. In mobile phones and tablets.
 The code is given in 'proximity.js', and is very similar to that for the ultrasonic one.
 
+Others:
+The fritzing diagram file is attached as 'sensor.fzz' and the Actual distance vs Measured distance table as 'Maxsonar sensor table.pdf'.
+
 We could probably interface more sensors and displays to build something larger.
