@@ -28,4 +28,6 @@ Subject	: Report on lab04
  
   In the third part, we used a button to light up a happy face on the LED matrix, whenever it is pressed.
 
+ In the next part, two buttons are used, one for printing the entire sequence, and the other for fading up and down, in 'LEDmatrix_2buttons.js'. The two buttons don't work independent of one another, since one function is run at a time. 
+
 We will try to hook up our etch-a-sketch program to the LED matrix after the next few labs.
