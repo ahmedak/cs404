@@ -1,3 +1,15 @@
+# Comments from Mark A. Yoder
+
+5	Analog In   
+5	Analog Out
+5	Combine In and   - Don't see your code for this
+5	jsfiddle Local       - Don't see your code for this
+5	Add a button (bonus)
+7	ReadMe.txt
+
+Grade:  32/25
+
+========================================
 Prof. Yoder comments
 Very nice memo. The code you present looks good.
 Did you do the jsfiddle part?  I don't see the code, but your partner reports it.
