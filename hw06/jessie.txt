@@ -1,0 +1,14 @@
+1) These are the latest Debian release codenames, as per the debian website:
+    i) Stable release: 'jessie'
+    ii) Testing release: 'stretch'
+    iii) Unstable release: 'sid'
+    
+
+2) In our bone, we had 36556 packages available to install.
+
+3) The 1.0.1-1 version of htop was installed.
+
+4) We used backports to add jessie release packages:
+    bone$ echo "deb http://ftp.us.debian.org/debian/ wheezy-backports main" > /etc/apt/sources.list.d/wheezy-backports.list
+    
+5) From jessie, the version of htop is 1.0.3-1.
